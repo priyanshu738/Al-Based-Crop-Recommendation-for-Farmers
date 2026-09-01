@@ -1,0 +1,6 @@
+{
+  "name": "AI Crop Recommendation for Farmers",
+  "description": "Smart agronomic decision support tool for farmers to find optimal crops based on NPK soil nutrients, pH, rainfall, temperature, and humidity with yield projections and care tips.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

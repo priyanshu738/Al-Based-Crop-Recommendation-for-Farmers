@@ -1,0 +1,1279 @@
+[
+  {
+    "id": "REC-MT8HX78G-28N6",
+    "createdAt": "2026-08-25T10:02:09.760Z",
+    "inputs": {
+      "n": 95,
+      "p": 50,
+      "k": 42,
+      "temperature": 26.5,
+      "humidity": 86,
+      "ph": 6.4,
+      "rainfall": 220,
+      "stateRegion": "West Bengal / Assam",
+      "soilType": "Clay Loam",
+      "farmName": "Brahmaputra Valley Field 1",
+      "fieldArea": "3.5 Acres"
+    },
+    "topCrop": {
+      "id": "rice",
+      "name": "Rice (Paddy)",
+      "hindiName": "चावल (धान)",
+      "scientificName": "Oryza sativa",
+      "category": "Cereal",
+      "description": "Primary staple cereal thriving in warm, high-moisture tropical floodplains and irrigated lowlands.",
+      "idealSeason": "Kharif (June – November)",
+      "growthDuration": "105 – 150 days",
+      "expectedYield": "4.0 – 6.5 tonnes / hectare",
+      "waterRequirement": "Very High",
+      "waterRequirementMm": "1500 – 2500 mm",
+      "marketDemand": "Very High",
+      "ranges": {
+        "n": {
+          "min": 60,
+          "max": 140,
+          "optimalMin": 80,
+          "optimalMax": 120,
+          "unit": "kg/ha"
+        },
+        "p": {
+          "min": 30,
+          "max": 80,
+          "optimalMin": 40,
+          "optimalMax": 60,
+          "unit": "kg/ha"
+        },
+        "k": {
+          "min": 30,
+          "max": 60,
+          "optimalMin": 35,
+          "optimalMax": 50,
+          "unit": "kg/ha"
+        },
+        "temp": {
+          "min": 20,
+          "max": 38,
+          "optimalMin": 22,
+          "optimalMax": 30,
+          "unit": "°C"
+        },
+        "humidity": {
+          "min": 70,
+          "max": 100,
+          "optimalMin": 80,
+          "optimalMax": 95,
+          "unit": "%"
+        },
+        "ph": {
+          "min": 5,
+          "max": 7.8,
+          "optimalMin": 6,
+          "optimalMax": 7,
+          "unit": "pH"
+        },
+        "rainfall": {
+          "min": 140,
+          "max": 350,
+          "optimalMin": 180,
+          "optimalMax": 280,
+          "unit": "mm/month"
+        }
+      },
+      "suitableSoilTypes": [
+        "Clay",
+        "Clay Loam",
+        "Alluvial Silty Soil"
+      ],
+      "careTips": [
+        "Maintain 2-5 cm standing water layer during the vegetative and tillering stages.",
+        "Split Nitrogen application: 50% basal, 25% at active tillering, and 25% at panicle initiation.",
+        "Incorporate organic manure (FYM) 2-3 weeks before transplanting."
+      ],
+      "pestManagement": [
+        "Monitor for Stem Borer: Use pheromone traps @ 5/acre and apply Neem oil or Chlorantraniliprole.",
+        "Control Blast disease with Tricyclazole 75% WP @ 0.6 g/L water at first symptom onset."
+      ],
+      "harvestingTips": "Harvest when 80-85% of the panicles turn golden yellow and grain moisture drops to ~20%.",
+      "iconName": "Sprout",
+      "colorTheme": "emerald",
+      "suitabilityScore": 99,
+      "confidenceLabel": "Optimal Fit",
+      "matchFactors": [
+        {
+          "parameter": "temperature",
+          "label": "Temperature",
+          "inputValue": 26.5,
+          "optimalRange": "22 – 30 °C",
+          "matchPercent": 100,
+          "status": "Optimal"
+        },
+        {
+          "parameter": "rainfall",
+          "label": "Rainfall / Water",
+          "inputValue": 220,
+          "optimalRange": "180 – 280 mm",
+          "matchPercent": 100,
+          "status": "Optimal"
+        },
+        {
+          "parameter": "ph",
+          "label": "Soil pH",
+          "inputValue": 6.4,
+          "optimalRange": "6 – 7 pH",
+          "matchPercent": 100,
+          "status": "Optimal"
+        },
+        {
+          "parameter": "humidity",
+          "label": "Humidity",
+          "inputValue": 86,
+          "optimalRange": "80 – 95 %",
+          "matchPercent": 100,
+          "status": "Optimal"
+        },
+        {
+          "parameter": "n",
+          "label": "Nitrogen (N)",
+          "inputValue": 95,
+          "optimalRange": "80 – 120 kg/ha",
+          "matchPercent": 100,
+          "status": "Optimal"
+        },
+        {
+          "parameter": "p",
+          "label": "Phosphorus (P)",
+          "inputValue": 50,
+          "optimalRange": "40 – 60 kg/ha",
+          "matchPercent": 100,
+          "status": "Optimal"
+        },
+        {
+          "parameter": "k",
+          "label": "Potassium (K)",
+          "inputValue": 42,
+          "optimalRange": "35 – 50 kg/ha",
+          "matchPercent": 100,
+          "status": "Optimal"
+        }
+      ],
+      "suitabilityNotes": [
+        "Your local thermal regime (26.5°C) and rainfall (220mm) match prime vegetative growth conditions.",
+        "Soil pH (6.4) is well-buffered for nutrient bioavailability for Rice (Paddy).",
+        "Primary macronutrient levels (N: 95, P: 50) support robust root establishment."
+      ],
+      "precautions": []
+    },
+    "alternatives": [
+      {
+        "id": "sugarcane",
+        "name": "Sugarcane",
+        "hindiName": "गन्ना",
+        "scientificName": "Saccharum officinarum",
+        "category": "Cash Crop",
+        "description": "Long-duration heavy commercial crop yielding high sucrose under abundant water and tropical heat.",
+        "idealSeason": "Autumn / Spring Planting (Oct / Feb)",
+        "growthDuration": "300 – 365 days",
+        "expectedYield": "80 – 120 tonnes / hectare",
+        "waterRequirement": "Very High",
+        "waterRequirementMm": "1800 – 2500 mm",
+        "marketDemand": "Very High",
+        "ranges": {
+          "n": {
+            "min": 80,
+            "max": 150,
+            "optimalMin": 100,
+            "optimalMax": 140,
+            "unit": "kg/ha"
+          },
+          "p": {
+            "min": 40,
+            "max": 80,
+            "optimalMin": 50,
+            "optimalMax": 70,
+            "unit": "kg/ha"
+          },
+          "k": {
+            "min": 40,
+            "max": 90,
+            "optimalMin": 50,
+            "optimalMax": 75,
+            "unit": "kg/ha"
+          },
+          "temp": {
+            "min": 21,
+            "max": 40,
+            "optimalMin": 24,
+            "optimalMax": 34,
+            "unit": "°C"
+          },
+          "humidity": {
+            "min": 60,
+            "max": 90,
+            "optimalMin": 70,
+            "optimalMax": 85,
+            "unit": "%"
+          },
+          "ph": {
+            "min": 5.5,
+            "max": 8,
+            "optimalMin": 6.5,
+            "optimalMax": 7.5,
+            "unit": "pH"
+          },
+          "rainfall": {
+            "min": 100,
+            "max": 280,
+            "optimalMin": 120,
+            "optimalMax": 200,
+            "unit": "mm/month"
+          }
+        },
+        "suitableSoilTypes": [
+          "Deep Loam",
+          "Heavy Alluvial Soil",
+          "Black Clay Loam"
+        ],
+        "careTips": [
+          "Earthing up at 90-120 days to anchor tall stalks and prevent wind lodging.",
+          "Trash mulching in alternate rows conserves soil moisture and controls weeds effectively.",
+          "Drip fertigation yields up to 40% water savings and higher sugar recovery."
+        ],
+        "pestManagement": [
+          "Early Shoot Borer: Soil application of Chlorantraniliprole 0.4 G or spraying Carbofuran.",
+          "Red Rot disease: Use certified disease-free setts and hot water treatment (52°C for 30 min)."
+        ],
+        "harvestingTips": "Test with hand refractometer (Brix > 18%); harvest flush to the ground level where sugar concentration is highest.",
+        "iconName": "Candy",
+        "colorTheme": "lime",
+        "suitabilityScore": 92,
+        "confidenceLabel": "Optimal Fit",
+        "matchFactors": [
+          {
+            "parameter": "temperature",
+            "label": "Temperature",
+            "inputValue": 26.5,
+            "optimalRange": "24 – 34 °C",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "rainfall",
+            "label": "Rainfall / Water",
+            "inputValue": 220,
+            "optimalRange": "120 – 200 mm",
+            "matchPercent": 89,
+            "status": "Acceptable"
+          },
+          {
+            "parameter": "ph",
+            "label": "Soil pH",
+            "inputValue": 6.4,
+            "optimalRange": "6.5 – 7.5 pH",
+            "matchPercent": 93,
+            "status": "Acceptable"
+          },
+          {
+            "parameter": "humidity",
+            "label": "Humidity",
+            "inputValue": 86,
+            "optimalRange": "70 – 85 %",
+            "matchPercent": 90,
+            "status": "Acceptable"
+          },
+          {
+            "parameter": "n",
+            "label": "Nitrogen (N)",
+            "inputValue": 95,
+            "optimalRange": "100 – 140 kg/ha",
+            "matchPercent": 89,
+            "status": "Acceptable"
+          },
+          {
+            "parameter": "p",
+            "label": "Phosphorus (P)",
+            "inputValue": 50,
+            "optimalRange": "50 – 70 kg/ha",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "k",
+            "label": "Potassium (K)",
+            "inputValue": 42,
+            "optimalRange": "50 – 75 kg/ha",
+            "matchPercent": 75,
+            "status": "Acceptable"
+          }
+        ],
+        "suitabilityNotes": [
+          "Crop is viable under moderate management with targeted irrigation and nutrient adjustments."
+        ],
+        "precautions": []
+      },
+      {
+        "id": "jute",
+        "name": "Jute (Golden Fiber)",
+        "hindiName": "जूट (पटसन)",
+        "scientificName": "Corchorus olitorius",
+        "category": "Cash Crop",
+        "description": "Golden fiber crop flourishing in warm humid river deltas with plenty of retting water.",
+        "idealSeason": "Kharif (March – August)",
+        "growthDuration": "100 – 120 days",
+        "expectedYield": "2.5 – 3.8 tonnes fiber / hectare",
+        "waterRequirement": "High",
+        "waterRequirementMm": "1200 – 1600 mm",
+        "marketDemand": "High",
+        "ranges": {
+          "n": {
+            "min": 60,
+            "max": 100,
+            "optimalMin": 70,
+            "optimalMax": 90,
+            "unit": "kg/ha"
+          },
+          "p": {
+            "min": 35,
+            "max": 60,
+            "optimalMin": 42,
+            "optimalMax": 55,
+            "unit": "kg/ha"
+          },
+          "k": {
+            "min": 30,
+            "max": 55,
+            "optimalMin": 36,
+            "optimalMax": 48,
+            "unit": "kg/ha"
+          },
+          "temp": {
+            "min": 23,
+            "max": 36,
+            "optimalMin": 25,
+            "optimalMax": 32,
+            "unit": "°C"
+          },
+          "humidity": {
+            "min": 70,
+            "max": 92,
+            "optimalMin": 78,
+            "optimalMax": 88,
+            "unit": "%"
+          },
+          "ph": {
+            "min": 6,
+            "max": 7.5,
+            "optimalMin": 6.2,
+            "optimalMax": 7,
+            "unit": "pH"
+          },
+          "rainfall": {
+            "min": 140,
+            "max": 220,
+            "optimalMin": 160,
+            "optimalMax": 200,
+            "unit": "mm/month"
+          }
+        },
+        "suitableSoilTypes": [
+          "Alluvial Silt Loam",
+          "Clayey Delta Soil"
+        ],
+        "careTips": [
+          "Sow with narrow line spacing of 25 cm x 5 cm for fine, non-branching fiber stalks.",
+          "Perform wheel hoe weeding at 20 and 35 days after sowing.",
+          "Ensure availability of slow-moving clean microbial retting water pools."
+        ],
+        "pestManagement": [
+          "Yellow Mite: Spray Fenazaquin 10 EC @ 1.5 ml/L.",
+          "Stem Rot (Macrophomina phaseolina): Seed treatment with Carbendazim (2 g/kg)."
+        ],
+        "harvestingTips": "Harvest at 50% small pod initiation stage (120 days) for optimum fiber strength and softness.",
+        "iconName": "Layers",
+        "colorTheme": "amber",
+        "suitabilityScore": 92,
+        "confidenceLabel": "Optimal Fit",
+        "matchFactors": [
+          {
+            "parameter": "temperature",
+            "label": "Temperature",
+            "inputValue": 26.5,
+            "optimalRange": "25 – 32 °C",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "rainfall",
+            "label": "Rainfall / Water",
+            "inputValue": 220,
+            "optimalRange": "160 – 200 mm",
+            "matchPercent": 70,
+            "status": "Acceptable"
+          },
+          {
+            "parameter": "ph",
+            "label": "Soil pH",
+            "inputValue": 6.4,
+            "optimalRange": "6.2 – 7 pH",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "humidity",
+            "label": "Humidity",
+            "inputValue": 86,
+            "optimalRange": "78 – 88 %",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "n",
+            "label": "Nitrogen (N)",
+            "inputValue": 95,
+            "optimalRange": "70 – 90 kg/ha",
+            "matchPercent": 83,
+            "status": "Acceptable"
+          },
+          {
+            "parameter": "p",
+            "label": "Phosphorus (P)",
+            "inputValue": 50,
+            "optimalRange": "42 – 55 kg/ha",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "k",
+            "label": "Potassium (K)",
+            "inputValue": 42,
+            "optimalRange": "36 – 48 kg/ha",
+            "matchPercent": 100,
+            "status": "Optimal"
+          }
+        ],
+        "suitabilityNotes": [
+          "Soil pH (6.4) is well-buffered for nutrient bioavailability for Jute (Golden Fiber)."
+        ],
+        "precautions": []
+      },
+      {
+        "id": "maize",
+        "name": "Maize (Corn)",
+        "hindiName": "मक्का",
+        "scientificName": "Zea mays",
+        "category": "Cereal",
+        "description": "High-energy versatile grain crop adaptable across agro-climatic zones with excellent biomass.",
+        "idealSeason": "Kharif & Rabi (June-Oct / Oct-Feb)",
+        "growthDuration": "90 – 120 days",
+        "expectedYield": "5.0 – 8.0 tonnes / hectare",
+        "waterRequirement": "Medium",
+        "waterRequirementMm": "500 – 800 mm",
+        "marketDemand": "High",
+        "ranges": {
+          "n": {
+            "min": 60,
+            "max": 120,
+            "optimalMin": 70,
+            "optimalMax": 100,
+            "unit": "kg/ha"
+          },
+          "p": {
+            "min": 35,
+            "max": 75,
+            "optimalMin": 45,
+            "optimalMax": 65,
+            "unit": "kg/ha"
+          },
+          "k": {
+            "min": 15,
+            "max": 45,
+            "optimalMin": 20,
+            "optimalMax": 35,
+            "unit": "kg/ha"
+          },
+          "temp": {
+            "min": 18,
+            "max": 35,
+            "optimalMin": 22,
+            "optimalMax": 29,
+            "unit": "°C"
+          },
+          "humidity": {
+            "min": 50,
+            "max": 85,
+            "optimalMin": 55,
+            "optimalMax": 75,
+            "unit": "%"
+          },
+          "ph": {
+            "min": 5.5,
+            "max": 7.8,
+            "optimalMin": 6,
+            "optimalMax": 7.2,
+            "unit": "pH"
+          },
+          "rainfall": {
+            "min": 60,
+            "max": 180,
+            "optimalMin": 70,
+            "optimalMax": 120,
+            "unit": "mm/month"
+          }
+        },
+        "suitableSoilTypes": [
+          "Deep Fertile Loam",
+          "Sandy Loam",
+          "Silt Loam"
+        ],
+        "careTips": [
+          "Extremely sensitive to waterlogging; create ridged furrows for effective drainage.",
+          "Side-dress Nitrogen at knee-high stage and tasseling for maximum cob girth.",
+          "Ensure adequate spacing of 60 cm x 20 cm for hybrid varieties."
+        ],
+        "pestManagement": [
+          "Fall Armyworm (FAW): Apply Emamectin Benzoate 5% SG @ 0.4 g/L in whorls when young larvae appear.",
+          "Control Stem Borer with Carbofuran granules or Trichogramma egg parasitoids."
+        ],
+        "harvestingTips": "Harvest when outer husk turns dry and paper-like with a dark black layer visible at the base of the kernel.",
+        "iconName": "Trees",
+        "colorTheme": "yellow",
+        "suitabilityScore": 81,
+        "confidenceLabel": "High Fit",
+        "matchFactors": [
+          {
+            "parameter": "temperature",
+            "label": "Temperature",
+            "inputValue": 26.5,
+            "optimalRange": "22 – 29 °C",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "rainfall",
+            "label": "Rainfall / Water",
+            "inputValue": 220,
+            "optimalRange": "70 – 120 mm",
+            "matchPercent": 41,
+            "status": "Suboptimal"
+          },
+          {
+            "parameter": "ph",
+            "label": "Soil pH",
+            "inputValue": 6.4,
+            "optimalRange": "6 – 7.2 pH",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "humidity",
+            "label": "Humidity",
+            "inputValue": 86,
+            "optimalRange": "55 – 75 %",
+            "matchPercent": 67,
+            "status": "Suboptimal"
+          },
+          {
+            "parameter": "n",
+            "label": "Nitrogen (N)",
+            "inputValue": 95,
+            "optimalRange": "70 – 100 kg/ha",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "p",
+            "label": "Phosphorus (P)",
+            "inputValue": 50,
+            "optimalRange": "45 – 65 kg/ha",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "k",
+            "label": "Potassium (K)",
+            "inputValue": 42,
+            "optimalRange": "20 – 35 kg/ha",
+            "matchPercent": 78,
+            "status": "Acceptable"
+          }
+        ],
+        "suitabilityNotes": [
+          "Soil pH (6.4) is well-buffered for nutrient bioavailability for Maize (Corn).",
+          "Primary macronutrient levels (N: 95, P: 50) support robust root establishment."
+        ],
+        "precautions": [
+          "High rainfall (220mm) poses waterlogging risk. Ensure proper field drainage channels."
+        ]
+      }
+    ],
+    "soilHealth": {
+      "nitrogen": {
+        "status": "Optimal",
+        "value": 95,
+        "advice": "Nitrogen levels are well-balanced for vegetative canopy development."
+      },
+      "phosphorus": {
+        "status": "Optimal",
+        "value": 50,
+        "advice": "Phosphorus is adequate for root branching and flower development."
+      },
+      "potassium": {
+        "status": "Optimal",
+        "value": 42,
+        "advice": "Potassium level provides strong disease resistance and grain/fruit filling."
+      },
+      "ph": {
+        "status": "Optimal (Neutral)",
+        "value": 6.4,
+        "advice": "Soil reaction (pH) is near neutral (6.0 - 7.5), optimal for maximum nutrient availability."
+      },
+      "moisture": {
+        "status": "Humid / High Rain",
+        "value": 220,
+        "advice": "Abundant moisture regime. Suited for water-loving crops like paddy, jute, and sugarcane. Ensure drainage."
+      },
+      "fertilizerPrescription": [
+        "Nutrient baseline is in good equilibrium. Maintain standard balanced NPK maintenance doses."
+      ]
+    },
+    "aiAgronomyAdvisory": "• **Agronomic Rationale**: Based on your field's soil pH (6.4) and climate envelope (26.5°C, 220mm rain), **Rice (Paddy)** is ideally matched for high photosynthetic efficiency and optimal root development.\n• **Nutrient Optimization**: With Nitrogen at 95 kg/ha and Phosphorus at 50 kg/ha, ensure Nutrient baseline is in good equilibrium. Maintain standard balanced NPK maintenance doses..\n• **Cultivation & Irrigation**: Maintain recommended field drainage or irrigation frequency during the Kharif (June – November) window. Watch for key pests like Monitor for Stem Borer during early seedling establishment.",
+    "source": "ai_agronomy_engine"
+  },
+  {
+    "id": "REC-MT8HX79R-XR0I",
+    "createdAt": "2026-08-25T10:02:09.807Z",
+    "inputs": {
+      "n": 85,
+      "p": 52,
+      "k": 38,
+      "temperature": 18.2,
+      "humidity": 52,
+      "ph": 7.1,
+      "rainfall": 65,
+      "stateRegion": "Punjab / Haryana",
+      "soilType": "Alluvial Loam",
+      "farmName": "Kisan Seva Demo Plot",
+      "fieldArea": "5.0 Acres"
+    },
+    "topCrop": {
+      "id": "wheat",
+      "name": "Wheat",
+      "hindiName": "गेहूं",
+      "scientificName": "Triticum aestivum",
+      "category": "Cereal",
+      "description": "Major cool-season rabi cereal requiring cool germination and warm sunny grain-filling periods.",
+      "idealSeason": "Rabi (November – April)",
+      "growthDuration": "110 – 140 days",
+      "expectedYield": "4.5 – 6.0 tonnes / hectare",
+      "waterRequirement": "Medium",
+      "waterRequirementMm": "450 – 650 mm",
+      "marketDemand": "Very High",
+      "ranges": {
+        "n": {
+          "min": 40,
+          "max": 120,
+          "optimalMin": 60,
+          "optimalMax": 100,
+          "unit": "kg/ha"
+        },
+        "p": {
+          "min": 30,
+          "max": 70,
+          "optimalMin": 45,
+          "optimalMax": 60,
+          "unit": "kg/ha"
+        },
+        "k": {
+          "min": 20,
+          "max": 60,
+          "optimalMin": 30,
+          "optimalMax": 45,
+          "unit": "kg/ha"
+        },
+        "temp": {
+          "min": 10,
+          "max": 26,
+          "optimalMin": 15,
+          "optimalMax": 22,
+          "unit": "°C"
+        },
+        "humidity": {
+          "min": 30,
+          "max": 70,
+          "optimalMin": 40,
+          "optimalMax": 60,
+          "unit": "%"
+        },
+        "ph": {
+          "min": 5.5,
+          "max": 8.2,
+          "optimalMin": 6.2,
+          "optimalMax": 7.5,
+          "unit": "pH"
+        },
+        "rainfall": {
+          "min": 30,
+          "max": 120,
+          "optimalMin": 50,
+          "optimalMax": 90,
+          "unit": "mm/month"
+        }
+      },
+      "suitableSoilTypes": [
+        "Well-drained Loam",
+        "Clay Loam",
+        "Alluvial Soil"
+      ],
+      "careTips": [
+        "Critical irrigation stages: Crown Root Initiation (CRI at 21 days), Tillering, Flowering, and Milking.",
+        "Ensure seed treatment with Trichoderma viride or Carboxin prior to sowing.",
+        "Avoid delayed sowing beyond November to prevent terminal heat stress in March."
+      ],
+      "pestManagement": [
+        "Watch out for Yellow/Brown Rust; spray Propiconazole 25 EC (1 ml/L) if stripe rust spots appear.",
+        "Manage Aphids with Imidacloprid 17.8 SL @ 0.5 ml/L during flowering."
+      ],
+      "harvestingTips": "Harvest when leaves and stems turn completely straw-colored and grains are hard (moisture < 12%).",
+      "iconName": "Wheat",
+      "colorTheme": "amber",
+      "suitabilityScore": 99,
+      "confidenceLabel": "Optimal Fit",
+      "matchFactors": [
+        {
+          "parameter": "temperature",
+          "label": "Temperature",
+          "inputValue": 18.2,
+          "optimalRange": "15 – 22 °C",
+          "matchPercent": 100,
+          "status": "Optimal"
+        },
+        {
+          "parameter": "rainfall",
+          "label": "Rainfall / Water",
+          "inputValue": 65,
+          "optimalRange": "50 – 90 mm",
+          "matchPercent": 100,
+          "status": "Optimal"
+        },
+        {
+          "parameter": "ph",
+          "label": "Soil pH",
+          "inputValue": 7.1,
+          "optimalRange": "6.2 – 7.5 pH",
+          "matchPercent": 100,
+          "status": "Optimal"
+        },
+        {
+          "parameter": "humidity",
+          "label": "Humidity",
+          "inputValue": 52,
+          "optimalRange": "40 – 60 %",
+          "matchPercent": 100,
+          "status": "Optimal"
+        },
+        {
+          "parameter": "n",
+          "label": "Nitrogen (N)",
+          "inputValue": 85,
+          "optimalRange": "60 – 100 kg/ha",
+          "matchPercent": 100,
+          "status": "Optimal"
+        },
+        {
+          "parameter": "p",
+          "label": "Phosphorus (P)",
+          "inputValue": 52,
+          "optimalRange": "45 – 60 kg/ha",
+          "matchPercent": 100,
+          "status": "Optimal"
+        },
+        {
+          "parameter": "k",
+          "label": "Potassium (K)",
+          "inputValue": 38,
+          "optimalRange": "30 – 45 kg/ha",
+          "matchPercent": 100,
+          "status": "Optimal"
+        }
+      ],
+      "suitabilityNotes": [
+        "Your local thermal regime (18.2°C) and rainfall (65mm) match prime vegetative growth conditions.",
+        "Soil pH (7.1) is well-buffered for nutrient bioavailability for Wheat.",
+        "Primary macronutrient levels (N: 85, P: 52) support robust root establishment."
+      ],
+      "precautions": []
+    },
+    "alternatives": [
+      {
+        "id": "maize",
+        "name": "Maize (Corn)",
+        "hindiName": "मक्का",
+        "scientificName": "Zea mays",
+        "category": "Cereal",
+        "description": "High-energy versatile grain crop adaptable across agro-climatic zones with excellent biomass.",
+        "idealSeason": "Kharif & Rabi (June-Oct / Oct-Feb)",
+        "growthDuration": "90 – 120 days",
+        "expectedYield": "5.0 – 8.0 tonnes / hectare",
+        "waterRequirement": "Medium",
+        "waterRequirementMm": "500 – 800 mm",
+        "marketDemand": "High",
+        "ranges": {
+          "n": {
+            "min": 60,
+            "max": 120,
+            "optimalMin": 70,
+            "optimalMax": 100,
+            "unit": "kg/ha"
+          },
+          "p": {
+            "min": 35,
+            "max": 75,
+            "optimalMin": 45,
+            "optimalMax": 65,
+            "unit": "kg/ha"
+          },
+          "k": {
+            "min": 15,
+            "max": 45,
+            "optimalMin": 20,
+            "optimalMax": 35,
+            "unit": "kg/ha"
+          },
+          "temp": {
+            "min": 18,
+            "max": 35,
+            "optimalMin": 22,
+            "optimalMax": 29,
+            "unit": "°C"
+          },
+          "humidity": {
+            "min": 50,
+            "max": 85,
+            "optimalMin": 55,
+            "optimalMax": 75,
+            "unit": "%"
+          },
+          "ph": {
+            "min": 5.5,
+            "max": 7.8,
+            "optimalMin": 6,
+            "optimalMax": 7.2,
+            "unit": "pH"
+          },
+          "rainfall": {
+            "min": 60,
+            "max": 180,
+            "optimalMin": 70,
+            "optimalMax": 120,
+            "unit": "mm/month"
+          }
+        },
+        "suitableSoilTypes": [
+          "Deep Fertile Loam",
+          "Sandy Loam",
+          "Silt Loam"
+        ],
+        "careTips": [
+          "Extremely sensitive to waterlogging; create ridged furrows for effective drainage.",
+          "Side-dress Nitrogen at knee-high stage and tasseling for maximum cob girth.",
+          "Ensure adequate spacing of 60 cm x 20 cm for hybrid varieties."
+        ],
+        "pestManagement": [
+          "Fall Armyworm (FAW): Apply Emamectin Benzoate 5% SG @ 0.4 g/L in whorls when young larvae appear.",
+          "Control Stem Borer with Carbofuran granules or Trichogramma egg parasitoids."
+        ],
+        "harvestingTips": "Harvest when outer husk turns dry and paper-like with a dark black layer visible at the base of the kernel.",
+        "iconName": "Trees",
+        "colorTheme": "yellow",
+        "suitabilityScore": 86,
+        "confidenceLabel": "Optimal Fit",
+        "matchFactors": [
+          {
+            "parameter": "temperature",
+            "label": "Temperature",
+            "inputValue": 18.2,
+            "optimalRange": "22 – 29 °C",
+            "matchPercent": 71,
+            "status": "Acceptable"
+          },
+          {
+            "parameter": "rainfall",
+            "label": "Rainfall / Water",
+            "inputValue": 65,
+            "optimalRange": "70 – 120 mm",
+            "matchPercent": 83,
+            "status": "Acceptable"
+          },
+          {
+            "parameter": "ph",
+            "label": "Soil pH",
+            "inputValue": 7.1,
+            "optimalRange": "6 – 7.2 pH",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "humidity",
+            "label": "Humidity",
+            "inputValue": 52,
+            "optimalRange": "55 – 75 %",
+            "matchPercent": 80,
+            "status": "Acceptable"
+          },
+          {
+            "parameter": "n",
+            "label": "Nitrogen (N)",
+            "inputValue": 85,
+            "optimalRange": "70 – 100 kg/ha",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "p",
+            "label": "Phosphorus (P)",
+            "inputValue": 52,
+            "optimalRange": "45 – 65 kg/ha",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "k",
+            "label": "Potassium (K)",
+            "inputValue": 38,
+            "optimalRange": "20 – 35 kg/ha",
+            "matchPercent": 88,
+            "status": "Acceptable"
+          }
+        ],
+        "suitabilityNotes": [
+          "Soil pH (7.1) is well-buffered for nutrient bioavailability for Maize (Corn).",
+          "Primary macronutrient levels (N: 85, P: 52) support robust root establishment."
+        ],
+        "precautions": []
+      },
+      {
+        "id": "cotton",
+        "name": "Cotton",
+        "hindiName": "कपास",
+        "scientificName": "Gossypium hirsutum",
+        "category": "Cash Crop",
+        "description": "Premier fiber and cash crop ideal for deep black cotton soils and sunny semi-arid climates.",
+        "idealSeason": "Kharif (May – November)",
+        "growthDuration": "150 – 180 days",
+        "expectedYield": "2.0 – 3.5 tonnes lint / hectare",
+        "waterRequirement": "Medium",
+        "waterRequirementMm": "650 – 1000 mm",
+        "marketDemand": "Very High",
+        "ranges": {
+          "n": {
+            "min": 90,
+            "max": 150,
+            "optimalMin": 110,
+            "optimalMax": 140,
+            "unit": "kg/ha"
+          },
+          "p": {
+            "min": 35,
+            "max": 70,
+            "optimalMin": 40,
+            "optimalMax": 60,
+            "unit": "kg/ha"
+          },
+          "k": {
+            "min": 15,
+            "max": 40,
+            "optimalMin": 20,
+            "optimalMax": 35,
+            "unit": "kg/ha"
+          },
+          "temp": {
+            "min": 21,
+            "max": 36,
+            "optimalMin": 23,
+            "optimalMax": 30,
+            "unit": "°C"
+          },
+          "humidity": {
+            "min": 55,
+            "max": 85,
+            "optimalMin": 65,
+            "optimalMax": 80,
+            "unit": "%"
+          },
+          "ph": {
+            "min": 6,
+            "max": 8.5,
+            "optimalMin": 6.5,
+            "optimalMax": 7.8,
+            "unit": "pH"
+          },
+          "rainfall": {
+            "min": 50,
+            "max": 140,
+            "optimalMin": 60,
+            "optimalMax": 100,
+            "unit": "mm/month"
+          }
+        },
+        "suitableSoilTypes": [
+          "Deep Black Regur Soil",
+          "Medium Black Soil",
+          "Alluvial Loam"
+        ],
+        "careTips": [
+          "Requires warm days and bright sunshine during boll formation and opening.",
+          "Apply foliar spray of 2% DAP and 1% Potassium Nitrate during peak square/boll development.",
+          "Maintain clean inter-row weeding during the first 60 days."
+        ],
+        "pestManagement": [
+          "Pink Bollworm: Install pheromone traps (5/ha), release Trichogramma, and avoid late season ratoon crops.",
+          "Sucking pests (Jassids, Thrips): Spray Flonicamid 50 WG or Neem-based formulations."
+        ],
+        "harvestingTips": "Pick only fully burst clean bolls in the morning after dew evaporates; keep dry and clean.",
+        "iconName": "Flower2",
+        "colorTheme": "stone",
+        "suitabilityScore": 76,
+        "confidenceLabel": "High Fit",
+        "matchFactors": [
+          {
+            "parameter": "temperature",
+            "label": "Temperature",
+            "inputValue": 18.2,
+            "optimalRange": "23 – 30 °C",
+            "matchPercent": 44,
+            "status": "Suboptimal"
+          },
+          {
+            "parameter": "rainfall",
+            "label": "Rainfall / Water",
+            "inputValue": 65,
+            "optimalRange": "60 – 100 mm",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "ph",
+            "label": "Soil pH",
+            "inputValue": 7.1,
+            "optimalRange": "6.5 – 7.8 pH",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "humidity",
+            "label": "Humidity",
+            "inputValue": 52,
+            "optimalRange": "65 – 80 %",
+            "matchPercent": 58,
+            "status": "Suboptimal"
+          },
+          {
+            "parameter": "n",
+            "label": "Nitrogen (N)",
+            "inputValue": 85,
+            "optimalRange": "110 – 140 kg/ha",
+            "matchPercent": 60,
+            "status": "Suboptimal"
+          },
+          {
+            "parameter": "p",
+            "label": "Phosphorus (P)",
+            "inputValue": 52,
+            "optimalRange": "40 – 60 kg/ha",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "k",
+            "label": "Potassium (K)",
+            "inputValue": 38,
+            "optimalRange": "20 – 35 kg/ha",
+            "matchPercent": 80,
+            "status": "Acceptable"
+          }
+        ],
+        "suitabilityNotes": [
+          "Soil pH (7.1) is well-buffered for nutrient bioavailability for Cotton."
+        ],
+        "precautions": []
+      },
+      {
+        "id": "lentil",
+        "name": "Lentil (Masoor)",
+        "hindiName": "मसूर",
+        "scientificName": "Lens culinaris",
+        "category": "Pulse",
+        "description": "Cool-season hardy rabi pulse producing high mineral and protein grains with low water use.",
+        "idealSeason": "Rabi (October – March)",
+        "growthDuration": "100 – 120 days",
+        "expectedYield": "1.4 – 2.0 tonnes / hectare",
+        "waterRequirement": "Low",
+        "waterRequirementMm": "250 – 350 mm",
+        "marketDemand": "High",
+        "ranges": {
+          "n": {
+            "min": 10,
+            "max": 35,
+            "optimalMin": 15,
+            "optimalMax": 25,
+            "unit": "kg/ha"
+          },
+          "p": {
+            "min": 55,
+            "max": 85,
+            "optimalMin": 62,
+            "optimalMax": 78,
+            "unit": "kg/ha"
+          },
+          "k": {
+            "min": 10,
+            "max": 30,
+            "optimalMin": 15,
+            "optimalMax": 25,
+            "unit": "kg/ha"
+          },
+          "temp": {
+            "min": 14,
+            "max": 28,
+            "optimalMin": 18,
+            "optimalMax": 24,
+            "unit": "°C"
+          },
+          "humidity": {
+            "min": 50,
+            "max": 75,
+            "optimalMin": 58,
+            "optimalMax": 70,
+            "unit": "%"
+          },
+          "ph": {
+            "min": 5.8,
+            "max": 7.8,
+            "optimalMin": 6.4,
+            "optimalMax": 7.2,
+            "unit": "pH"
+          },
+          "rainfall": {
+            "min": 35,
+            "max": 65,
+            "optimalMin": 42,
+            "optimalMax": 55,
+            "unit": "mm/month"
+          }
+        },
+        "suitableSoilTypes": [
+          "Light Loam",
+          "Alluvial Silt Loam",
+          "Clayey Loam"
+        ],
+        "careTips": [
+          "Can be grown successfully on conserved residual soil moisture after rice harvest (relay cropping).",
+          "Seed inoculation with Rhizobium leguminosarum boosts nodulation.",
+          "One irrigation at pod formation increases grain weight by 20%."
+        ],
+        "pestManagement": [
+          "Lentil Rust: Spray Mancozeb 75 WP @ 2 g/L at first symptom.",
+          "Root Rot / Collar Rot: Treat seed with Carbendazim (2 g/kg)."
+        ],
+        "harvestingTips": "Harvest in the early morning to minimize pod splitting and seed drop.",
+        "iconName": "Coins",
+        "colorTheme": "amber",
+        "suitabilityScore": 72,
+        "confidenceLabel": "High Fit",
+        "matchFactors": [
+          {
+            "parameter": "temperature",
+            "label": "Temperature",
+            "inputValue": 18.2,
+            "optimalRange": "18 – 24 °C",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "rainfall",
+            "label": "Rainfall / Water",
+            "inputValue": 65,
+            "optimalRange": "42 – 55 mm",
+            "matchPercent": 70,
+            "status": "Acceptable"
+          },
+          {
+            "parameter": "ph",
+            "label": "Soil pH",
+            "inputValue": 7.1,
+            "optimalRange": "6.4 – 7.2 pH",
+            "matchPercent": 100,
+            "status": "Optimal"
+          },
+          {
+            "parameter": "humidity",
+            "label": "Humidity",
+            "inputValue": 52,
+            "optimalRange": "58 – 70 %",
+            "matchPercent": 76,
+            "status": "Acceptable"
+          },
+          {
+            "parameter": "n",
+            "label": "Nitrogen (N)",
+            "inputValue": 85,
+            "optimalRange": "15 – 25 kg/ha",
+            "matchPercent": 5,
+            "status": "Stress"
+          },
+          {
+            "parameter": "p",
+            "label": "Phosphorus (P)",
+            "inputValue": 52,
+            "optimalRange": "62 – 78 kg/ha",
+            "matchPercent": 58,
+            "status": "Suboptimal"
+          },
+          {
+            "parameter": "k",
+            "label": "Potassium (K)",
+            "inputValue": 38,
+            "optimalRange": "15 – 25 kg/ha",
+            "matchPercent": 31,
+            "status": "Stress"
+          }
+        ],
+        "suitabilityNotes": [
+          "Soil pH (7.1) is well-buffered for nutrient bioavailability for Lentil (Masoor)."
+        ],
+        "precautions": []
+      }
+    ],
+    "soilHealth": {
+      "nitrogen": {
+        "status": "Optimal",
+        "value": 85,
+        "advice": "Nitrogen levels are well-balanced for vegetative canopy development."
+      },
+      "phosphorus": {
+        "status": "Optimal",
+        "value": 52,
+        "advice": "Phosphorus is adequate for root branching and flower development."
+      },
+      "potassium": {
+        "status": "Optimal",
+        "value": 38,
+        "advice": "Potassium level provides strong disease resistance and grain/fruit filling."
+      },
+      "ph": {
+        "status": "Optimal (Neutral)",
+        "value": 7.1,
+        "advice": "Soil reaction (pH) is near neutral (6.0 - 7.5), optimal for maximum nutrient availability."
+      },
+      "moisture": {
+        "status": "Moderate / Adequate",
+        "value": 65,
+        "advice": "Rainfall and humidity support standard seasonal cropping without acute stress."
+      },
+      "fertilizerPrescription": [
+        "Nutrient baseline is in good equilibrium. Maintain standard balanced NPK maintenance doses."
+      ]
+    },
+    "aiAgronomyAdvisory": "• **Agronomic Rationale**: Based on your field's soil pH (7.1) and climate envelope (18.2°C, 65mm rain), **Wheat** is ideally matched for high photosynthetic efficiency and optimal root development.\n• **Nutrient Optimization**: With Nitrogen at 85 kg/ha and Phosphorus at 52 kg/ha, ensure Nutrient baseline is in good equilibrium. Maintain standard balanced NPK maintenance doses..\n• **Cultivation & Irrigation**: Maintain recommended field drainage or irrigation frequency during the Rabi (November – April) window. Watch for key pests like Watch out for Yellow/Brown Rust; spray Propiconazole 25 EC (1 ml/L) if stripe rust spots appear. during early seedling establishment.",
+    "source": "ai_agronomy_engine"
+  }
+]
